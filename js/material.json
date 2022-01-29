@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "title": "Kayu Jati",
+    "img": "/kertakayu/img/kayu/jati.jpg",
+    "desc": "Semua desain website yang dibuatkan oleh kami akan full responsive yang artinya tampilan website tidak akan rusak jika di buka di hp/ komputer."
+}, {
+    "id": 3,
+    "title": "Kayu Mahogany",
+    "img": "/kertakayu/img/kayu/mahogany.jpg",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}, {
+    "id": 4,
+    "title": "Kayu Jati Belnda",
+    "img": "/kertakayu/img/kayu/jati-belanda.jpg",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}, {
+    "id": 5,
+    "title": "Kayu Trembesi",
+    "img": "/kertakayu/img/kayu/trembesi.jpg",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}]

@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "title": "Cafe Kayu",
+    "img": "/kertakayu/img/kayu/p1.jpg",
+    "url": "https://rumaortu.co.id",
+    "category": "Food and Beverage",
+    "desc": "Website ini adalah website compay profile yang dibuat untuk bisnis café rumaortu. Website ini memiliki fitur untuk melihat data menu , data visimisi dan dsb . Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten"
+}, {
+    "id": 2,
+    "title": "Cafe Kayu",
+    "img": "/kertakayu/img/kayu/p2.jpg",
+    "url": "https://fsk.unipasby.ac.id/",
+    "category": "Education",
+    "desc": "Website ini adalah website compay profile yang dibuat untuk Fakultas Sains dan Kesehatan universitas PGRI Adi Buana Surabaya. Website ini memiliki fitur untuk melihat data artikel , data visimisi dan dsb . Website ini dibuat dengan responsive. Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten "
+}, {
+    "id": 3,
+    "title": "Kursi Kayu",
+    "img": "/kertakayu/img/kayu/p3.webp",
+    "url": "https://aksarapengetahuan.org",
+    "category": "Organization",
+    "desc": "Website ini adalah website compay profile yang dibuat untuk sebuah yayasan bernama Aksara Pengetahuan.Website ini memiliki fitur untuk melihat data artikel , data visimisi dan dsb. Website ini memiliki fitur untuk multi bahasa yaitu bahasa Indonesia dan bahasa inggris. Website ini dibuatdengan responsive. Website ini juga dilengkapi dengan panel admin yangdigunakan untuk memanage konten."
+}, {
+    "id": 4,
+    "title": "Kursi Kayu",
+    "img": "/kertakayu/img/kayu/p4.jpg",
+    "url": "https://lasercomputer.id",
+    "category": "Technology",
+    "desc": "Website ini memiliki fitur untuk melihat data produk dan dsb .Website ini dibuat dengan responsive sehingga ketika dibuka di berbagai device tampilannya tidak akan rusak. Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten yang ada didalam website sehingga data yang dimasukkan bisa diubah melalui admin panel ."
+}, {
+    "id": 5,
+    "title": "Meja Kayu",
+    "img": "/kertakayu/img/kayu/p5.jpg",
+    "url": "https://luxindopritama.id",
+    "category": "Home Living",
+    "desc": "Website Landing page yang menampilkan produk-produk dan profile company. Website static yg tidak menggunakan halaman admin"
+}, {
+    "id": 6,
+    "title": "Meja Kayu",
+    "img": "/kertakayu/img/kayu/p6.webp",
+    "url": "https://visicom.co.id",
+    "category": "Education",
+    "desc": "Visicom adalah salah satu company yang bergerak di bidang jasa, sudah banyak client-client yang bergabung dan telah mengembangkan produk-produk menarik. Halaman ini dilengkapi fitur admin dalam pengolahan data"
+}, {
+    "id": 7,
+    "title": "Lemari Kayu",
+    "img": "/kertakayu/img/kayu/p7.jpg",
+    "url": "https://sejarah.kemenparekraf.go.id",
+    "category": "Government",
+    "desc": "Sejarah Kemenparekraf yang menampilkan sejarah-sejarah berdirinya hingga saat ini. Dan program-program yang dilaksanakan. Website ini bersifat statis"
+}, {
+    "id": 8,
+    "title": "Lemari Kayu",
+    "img": "/kertakayu/img/kayu/p8.jpg",
+    "url": "https://approval.co.id",
+    "category": "Constructor",
+    "desc": "Approval Techno Mulia merupakan Company yang bergerak dibidang tambang. Gallery-gallery dan news merupakan fitur dari website ini. Website ini juga dilengkapi fitur admin dalam pengolahan data."
+}]

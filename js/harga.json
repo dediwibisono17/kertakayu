@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "title": "Paket Startup",
+    "harga": "3 Juta",
+    "img": "/lasertech/img/tam.png",
+    "list": ["Website Static Landing Page, Wedding, Company Profile","domain .com", "Design maksimal 2x revisi", "Hosting 1 tahun", "SSD Disk Space 500 MB", "Unlimited Database "]
+}, {
+    "id": 2,
+    "title": "Paket Bisnis",
+    "harga": "5 Juta",
+    "img": "/lasertech/img/tam.png",
+    "list": ["Website Food and Beverage, Company Profile","domain .com, .co.id, .org, .id", "Admin Panel", "Design maksimal 2x revisi", "Hosting 1 tahun", "Unlimited SSD Disk Space", "Unlimited Database "]
+}, {
+    "id": 3,
+    "title": "Paket Corporate",
+    "harga": "10 Juta",
+    "img": "/lasertech/img/tam.png",
+    "list": ["Website PT, Organisasi, Ecommerce with Cek Ongkir, Portal Webiste","domain .com, co.id, .org, .ac.id", "Admin Panel","Design bisa dari kami atau dari client", "Custom Design", "Guideline Color", "Hosting hingga 3 tahun", "Unlimited SSD Disk Space", "Unlimited Database"]
+}]

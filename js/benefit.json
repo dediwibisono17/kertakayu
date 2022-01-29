@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "title": "Harga Kompetitif",
+    "img": "/kertakayu/img/best-price.png",
+    "desc": "Semua desain website yang dibuatkan oleh kami akan full responsive yang artinya tampilan website tidak akan rusak jika di buka di hp/ komputer."
+}, {
+    "id": 3,
+    "title": "Produk Berkualitas",
+    "img": "/kertakayu/img/quality.png",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}, {
+    "id": 4,
+    "title": "Tidak ada minimum Pemesanan",
+    "img": "/kertakayu/img/order.png",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}, {
+    "id": 5,
+    "title": "Fleksibilats Pembayaran",
+    "img": "/kertakayu/img/payment.png",
+    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+}]
