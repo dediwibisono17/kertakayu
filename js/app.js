@@ -119,26 +119,27 @@ $.ajax({
     complete: function() {
         $(".loading").hide();
     },
+    // <div class="card__circle">
+    //     <div class="image">
+    //         <img src="${response[a].img}" alt="">
+    //     </div>
+    // </div>
     success: function(response) {
         console.log(response);
         var a;
         for (a = 0; a < response.length; a++) {
             $(".benefit").append(`
-            <div class="col-md-3 col-6">
+            <li class="wrap">
                 <div class="card_">
-                    <div class="card__circle">
-                        <div class="image">
-                            <img src="${response[a].img}" alt="">
-                        </div>
-                    </div>
                     <div class="content">
-                        <h3 class="font-std font-bold text-center">
+                        <h3 class="font-std font-bold">
                             ${response[a].title}
                         </h3>
+                        <p class="font-std">${response[a].desc}</p>
                         
                     </div>
                 </div>
-            </div>
+            </li>
             `)
         }
     }
