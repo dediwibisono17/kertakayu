@@ -110,6 +110,9 @@ section {
     &-silver {
         background-color: #ececec;
     }
+    &-fafa {
+        background-color: #fafafa;
+    }
 }
 
 .color {
@@ -129,6 +132,10 @@ section {
             object-fit: cover;
         }
     }
+}
+
+footer {
+    padding: 24px 0 0;
 }
 
 .menu {
@@ -477,9 +484,69 @@ section {
         text-transform: uppercase;
         color: #444;
         &:hover {
-            background-color: #444;
+            background-color: rgb(88, 25, 25);
             color: white;
             border: 1px solid transparent;
+        }
+    }
+}
+
+.aboutus {
+    .image {
+        width: 240px;
+        float: right;
+        margin-right: 52px;
+        @media screen and (max-width: $max) {
+            float: initial;
+            margin-right: initial;
+            margin: 0 auto;
+        }
+        // margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    .wow {
+        @media screen and (max-width: $max) {
+            text-align: center;
+        }
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 16px;
+    right: 16px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    @media screen and (max-width: $max) {
+        width: 48px;
+        height: 48px;
+        right: 12px;
+        bottom: 12px;
+        font-size: 28px;
+        transition: .3s;
+    }
+    &:hover {
+        background-color: #ececec;
+        color: #25d366 !important
+    }
+    .my-float {
+        margin-top: 16px;
+        transition: .3s;
+        &:hover {
+            background-color: #ececec;
+            color: #25d366 !important
+        }
+        @media screen and (max-width: $max) {
+            margin-top: 10px;
         }
     }
 }
