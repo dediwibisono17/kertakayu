@@ -30,13 +30,7 @@ $.ajax({
                     </div>
                 `);
 
-                var length = response[data].strategy;
-                var a
-                for (a = 0; a < length.length; a++) {
-                    var value = length[a];
-                    // console.log(value);
-                    $(".lala").append("<li>" + value + "</li>")
-                }
+
 
             })
         }
