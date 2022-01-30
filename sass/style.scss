@@ -45,7 +45,10 @@ section {
 .top {
     &-slider {
         .image {
-            height: 300px !important;
+            height: 420px !important;
+            @media screen and (max-width: $max) {
+                height: 320px !important;
+            }
         }
     }
 }
@@ -518,17 +521,28 @@ footer {
 
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    // width: 60px;
+    // height: 60px;
     bottom: 16px;
     right: 16px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 14px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
+    padding: 8px 16px;
+    vertical-align: middle;
+    span {
+        vertical-align: text-bottom;
+    }
+    i {
+        font-size: 20px;
+        @media screen and (max-width: $max) {
+            font-size: 30px;
+        }
+    }
     @media screen and (max-width: $max) {
         width: 48px;
         height: 48px;
@@ -536,20 +550,62 @@ footer {
         bottom: 12px;
         font-size: 28px;
         transition: .3s;
+        padding: 4px 0;
     }
     &:hover {
         background-color: #ececec;
         color: #25d366 !important
     }
     .my-float {
-        margin-top: 16px;
+        margin-top: 0px;
         transition: .3s;
         &:hover {
             background-color: #ececec;
             color: #25d366 !important
         }
         @media screen and (max-width: $max) {
-            margin-top: 10px;
+            margin-top: 0px;
         }
     }
+}
+
+.all-card {
+    display: block;
+    margin: 16px auto;
+    display: block;
+    text-align: center;
+    list-style: none;
+    counter-reset: item;
+    margin-top: 20px;
+    padding: 0 8px 0 16px;
+    .wrap {
+        display: inline-block;
+        width: 33%;
+        text-align: left;
+        vertical-align: top;
+        counter-increment: item;
+        @media screen and (max-width: $max) {
+            width: 100%
+        }
+        &::before {
+            background: #4a4a4a;
+            content: counter(item);
+            border-radius: 50%;
+            color: #fff;
+            padding: 4px 0;
+            width: 42px;
+            height: 42px;
+            text-align: center;
+            margin-right: 8px;
+            font-size: 24px;
+            float: left;
+        }
+        .card_ {
+            padding-left: 52px;
+        }
+    }
+}
+
+.ismobile {
+    visibility: visible;
 }
