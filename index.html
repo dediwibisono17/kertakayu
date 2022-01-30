@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="img/kayu.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="sass/bootstrap.min.css">
     <link rel="stylesheet" href="sass/animate.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
@@ -48,61 +48,42 @@
                 </button>
                 <a href="#" class="d-md-none brand color-black">Kertakayu</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand d-none d-md-block" href="#">Kertakayu</a>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="navbar-brand d-none d-md-block" href="#">Kertakayu</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
+                        <li class="nav-item d-md-none color-black">
+                            <a href="https://api.whatsapp.com/send?phone=6281317448113&text=Halo%21%20Saya%20ingin%20menanyakan%20tentang%20pemesanan%20kayu." target="_blank" class="color-black">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i> Hubungi Kami
+                            </a>
+                        </li>
                     </ul>
-                    <div class="form-inline my-2 my-lg-0">
-                        <div class="header-sos">
-                            <a href="https://api.whatsapp.com/send?phone=6281317448113&text=Halo%21%20Saya%20ingin%20menanyakan%20tentang%20pemesanan%20kayu." target="_blank">
-                                <div class="">
-                                    <i class="fa fa-whatsapp"></i>
-                                    <span class="text font-medium">08123456789</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="header-sos">
-                            <a href="#">
-                                <div class="">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span class="text font-medium">info@gmail.com</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </nav>
 
         <!-- section top -->
         <section class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <div class="top-slider">
-                            <div class="image">
-                                <img src="img/kerajinan.jpg" alt="" title="" loading="lazy">
-                            </div>
-                            <div class="image">
-                                <img src="img/kayu.jpg" alt="" title="" loading="lazy">
-                            </div>
-                            <div class="image">
-                                <img src="img/kayu2.jpg" alt="" title="" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="text-center wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
-                            <h1 class="upper font-big font-bold">Jasa Pembuatan Kayu Custom</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut provident enim quidem eius facilis totam culpa ducimus maxime rem nesciunt a quod magnam eaque temporibus esse, id nostrum nisi laborum!</p>
-                        </div>
-                    </div>
+            <div class="top-slider">
+                <div class="image">
+                    <img src="img/kerajinan.jpg" alt="" title="" loading="lazy">
+                </div>
+                <div class="image">
+                    <img src="img/kayu.jpg" alt="" title="" loading="lazy">
+                </div>
+                <div class="image">
+                    <img src="img/kayu2.jpg" alt="" title="" loading="lazy">
                 </div>
             </div>
             <hr>
@@ -133,15 +114,11 @@
         <section class="why">
             <div class="container">
                 <h2 class="text-center upper font-big wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Mengapa Kami</h2>
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <div class="row benefit wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+                <ol class="all-card benefit wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
 
-                        </div>
-                    </div>
-                </div>
+                </ol>
                 <br>
-                <div class="mx-auto text-center">
+                <div class=" mx-auto text-center">
                     <div class="wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Anda Berminat?</div>
                     <a href="#">
                         <button class="btn btn-custom wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
@@ -177,14 +154,14 @@
                         <div class="row project wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
 
                         </div>
-                        <!-- <div class="text-center">
-                            <a href="portfolio.html">
+                        <div class="text-center">
+                            <a href="gallery.html">
                                 <button class="btn btn-link font-std">
                                     Lihat Project
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                                 </button>
                             </a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,6 +190,9 @@
         </section>
 
 
+        <div class="loading">
+            <img src="img/loading.gif" alt="" title="loading">
+        </div>
 
         <footer class="bg-silver">
             <div class="text-center">
@@ -235,13 +215,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="font-small mt-2 ">&copy; 2022 Kertakayu</div>
+                <div class="font-small mt-2">&copy; 2022 Kertakayu</div>
             </div>
             <br>
         </footer>
 
         <a href="https://api.whatsapp.com/send?phone=6281317448113&text=Halo%21%20Saya%20ingin%20menanyakan%20tentang%20pemesanan%20kayu." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
+            <span class="isdesktop">Hubungi Kami</span>
         </a>
 
         <div class="modal fade" id="logo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
