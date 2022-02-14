@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "title": "Cafe Kayu",
-    "img": "/kertakayu/img/kayu/bg-p1.jpg",
+    "img": "/kertakayu/img/kayu/bg-p1.jpeg",
     "url": "https://rumaortu.co.id",
     "category": "Food and Beverage",
     "desc": "Website ini adalah website compay profile yang dibuat untuk bisnis café rumaortu. Website ini memiliki fitur untuk melihat data menu , data visimisi dan dsb . Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten"
@@ -15,7 +15,7 @@
 }, {
     "id": 3,
     "title": "Kursi Kayu",
-    "img": "/kertakayu/img/kayu/bg-p3.jpg",
+    "img": "/kertakayu/img/kayu/bg-p3.jpeg",
     "url": "https://aksarapengetahuan.org",
     "category": "Organization",
     "desc": "Website ini adalah website compay profile yang dibuat untuk sebuah yayasan bernama Aksara Pengetahuan.Website ini memiliki fitur untuk melihat data artikel , data visimisi dan dsb. Website ini memiliki fitur untuk multi bahasa yaitu bahasa Indonesia dan bahasa inggris. Website ini dibuatdengan responsive. Website ini juga dilengkapi dengan panel admin yangdigunakan untuk memanage konten."
