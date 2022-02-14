@@ -1,35 +1,35 @@
 [{
     "id": 1,
     "title": "Cafe Kayu",
-    "img": "/kertakayu/img/kayu/p1.jpg",
+    "img": "/kertakayu/img/kayu/bg-p1.jpg",
     "url": "https://rumaortu.co.id",
     "category": "Food and Beverage",
     "desc": "Website ini adalah website compay profile yang dibuat untuk bisnis café rumaortu. Website ini memiliki fitur untuk melihat data menu , data visimisi dan dsb . Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten"
 }, {
     "id": 2,
     "title": "Cafe Kayu",
-    "img": "/kertakayu/img/kayu/p2.jpg",
+    "img": "/kertakayu/img/kayu/bg-p2.jpg",
     "url": "https://fsk.unipasby.ac.id/",
     "category": "Education",
     "desc": "Website ini adalah website compay profile yang dibuat untuk Fakultas Sains dan Kesehatan universitas PGRI Adi Buana Surabaya. Website ini memiliki fitur untuk melihat data artikel , data visimisi dan dsb . Website ini dibuat dengan responsive. Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten "
 }, {
     "id": 3,
     "title": "Kursi Kayu",
-    "img": "/kertakayu/img/kayu/p3.webp",
+    "img": "/kertakayu/img/kayu/bg-p3.jpg",
     "url": "https://aksarapengetahuan.org",
     "category": "Organization",
     "desc": "Website ini adalah website compay profile yang dibuat untuk sebuah yayasan bernama Aksara Pengetahuan.Website ini memiliki fitur untuk melihat data artikel , data visimisi dan dsb. Website ini memiliki fitur untuk multi bahasa yaitu bahasa Indonesia dan bahasa inggris. Website ini dibuatdengan responsive. Website ini juga dilengkapi dengan panel admin yangdigunakan untuk memanage konten."
 }, {
     "id": 4,
     "title": "Kursi Kayu",
-    "img": "/kertakayu/img/kayu/p4.jpg",
+    "img": "/kertakayu/img/kayu/bg-white.jpg",
     "url": "https://lasercomputer.id",
     "category": "Technology",
     "desc": "Website ini memiliki fitur untuk melihat data produk dan dsb .Website ini dibuat dengan responsive sehingga ketika dibuka di berbagai device tampilannya tidak akan rusak. Website ini juga dilengkapi dengan panel admin yang digunakan untuk memanage konten yang ada didalam website sehingga data yang dimasukkan bisa diubah melalui admin panel ."
 }, {
     "id": 5,
     "title": "Meja Kayu",
-    "img": "/kertakayu/img/kayu/p5.jpg",
+    "img": "/kertakayu/img/kayu/bg-white2.jpg",
     "url": "https://luxindopritama.id",
     "category": "Home Living",
     "desc": "Website Landing page yang menampilkan produk-produk dan profile company. Website static yg tidak menggunakan halaman admin"
