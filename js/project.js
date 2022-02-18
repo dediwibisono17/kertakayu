@@ -13,8 +13,8 @@ $.ajax({
                     <div class="card__circle">
                         <div class="image image-data" data-toggle="modal" data-target="#logo" data-help="${response[a].id - 1}">
                             <img src="${response[a].img}" alt="${response[a].title}" title="${response[a].title}" loading="lazy">
-                            <div class="font-std">${response[a].title}</div>
                         </div>
+                        <div class="font-std font-bold title-bg-black">${response[a].title}</div>
                     </div>
                     
                 </div>
