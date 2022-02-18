@@ -8,7 +8,7 @@ $.ajax({
 
         for (a = 0; a < response.length; a++) {
             $(".project").append(`
-            <div class="col-md-3 col-6">
+            <div class="col-md-4 col-6">
                 <div class="card_">
                     <div class="card__circle">
                         <div class="image image-data" data-toggle="modal" data-target="#logo" data-help="${response[a].id - 1}">
