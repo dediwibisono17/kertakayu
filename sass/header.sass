@@ -9,7 +9,9 @@ a
     &:hover
         text-decoration: none
 body
-    font-family: 'Poppins','sans-serif' !important
+    font-family: 'Lato','sans-serif' !important
+.navbar
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px
 .bg-black
     background: rgba(white, .9) !important
     box-shadow: 0 3px 6px #bbb
@@ -119,6 +121,7 @@ header
 @media (max-width: 776px)
     .navbar-nav 
         margin-bottom: 16px
+        margin-left: 16px
     .navbar-collapse
         position: fixed
         z-index: 9999
@@ -127,7 +130,7 @@ header
         padding-left: 15px
         padding-right: 15px
         padding-bottom: 15px
-        width: 100%
+        width: 90%
         height: 100%
         top: 55px
     
@@ -155,12 +158,24 @@ header
             color: #4a4a4a
             font-weight: bold
             font-size: 14px
+            @media screen and(max-width: $max)
+                font-size: 20px
+
+.navbar-nav
+    .nav-item
+        &:last-child
+            @media screen and(max-width: $max)
+                position: absolute
+                bottom: 10%
 
 .navbar-light 
     .navbar-nav 
         .active
             >.nav-link
                 color: $primary-dark !important
+                @media screen and(max-width: $max)
+                    font-weight: bold
+                
 
 .header-sos
     margin: 0 8px
