@@ -1,21 +1,21 @@
 [{
     "id": 1,
-    "title": "Kayu Jati",
+    "title": "Multipleks",
     "img": "/kertakayu/img/kayu/jati.jpg",
-    "desc": "Semua desain website yang dibuatkan oleh kami akan full responsive yang artinya tampilan website tidak akan rusak jika di buka di hp/ komputer."
+    "desc": "Multipleks atau Kayu lapis merupakan hasil perekatan/press dari beberapa lembaran kayu dengan tekanan tinggi. Multiplek memiliki beberapa jenis ketebalan yang akan menentukan kekuatan furnitur. Harga multipleks lebih murah dibanding kayu solid."
 }, {
     "id": 3,
-    "title": "Kayu Mahogany",
+    "title": "Block Teak",
     "img": "/kertakayu/img/kayu/mahogany.jpg",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Block Teak termasuk dalam kelompok multipleks. Lapisan terluarnya adalah kayu jati, namun bagian dalamnya adalah kayu lunak. Teakblock hanya menonjolkan pola kayu pada lapisan luarnya."
 }, {
     "id": 4,
-    "title": "Kayu Jati Belnda",
+    "title": "HPL",
     "img": "/kertakayu/img/kayu/jati-belanda.jpg",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "HPL atau High Pressure Laminate terbuat dari lapisan-lapisan melamin resin dan phenolic yang direkatkan melalui panas dan tekanan tinggi, serta lapisan decorative paper yang diletakkan di bagian terluar sebelum proses pressing."
 }, {
     "id": 5,
-    "title": "Kayu Trembesi",
+    "title": "Duco",
     "img": "/kertakayu/img/kayu/trembesi.jpg",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Duco merupakan tipe finishing warna solid yang dapat membuat furniture tampak elegan dan hasilnya tahan lama. Dengan pilihan warna yang beragam, finishing cat duco lebih mengedepankan kekuatan dan kekokohan dari material dasar."
 }]

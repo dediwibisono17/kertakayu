@@ -14,6 +14,10 @@ $(document).ready(function() {
         }, 800);
     });
 
+    $(".navbar-toggler").click(() => {
+        // alert(1)
+        $(".helper-task").toggleClass('overflow')
+    })
 })
 
 $(window).scroll(function() {
@@ -72,43 +76,7 @@ $('.top-slider').slick({
     ]
 });
 
-$('.campaign').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerPadding: '60px',
-                adaptiveHeight: true
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
+
 
 $.ajax({
     url: '/kertakayu/js/benefit.json',
@@ -159,22 +127,51 @@ $.ajax({
         var a;
         for (a = 0; a < response.length; a++) {
             $(".material").append(`
-            <div class="col-md-3 col-6">
+            <div class="material-content">
                 <div class="card_">
-                    <div class="card__circle">
-                        <div class="image">
-                            <img src="${response[a].img}" alt="">
-                        </div>
-                    </div>
                     <div class="content">
-                        <h3 class="font-std font-bold text-center">
+                        <h3 class="font-medium font-bold upper">
                             ${response[a].title}
                         </h3>
-                        
-                    </div>
+                        <div class="desc font-small">${response[a].desc}</div>
+                        </div>
                 </div>
             </div>
-            `)
+                `)
         }
+        $(".material").not('.slick-initialized').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerPadding: '60px',
+                        adaptiveHeight: true
+                    }
+                }
+            ]
+        });
     }
 })
