@@ -1,31 +1,31 @@
 [{
     "id": 1,
-    "title": "Harga Kompetitif",
+    "title": "Design Profesional",
     "img": "/kertakayu/img/best-price.png",
-    "desc": "Semua desain website yang dibuatkan oleh kami akan full responsive yang artinya tampilan website tidak akan rusak jika di buka di hp/ komputer."
+    "desc": "Kreasikan dekorasi rumah anda sesuai dengan hasrat terpendam anda."
 }, {
     "id": 3,
-    "title": "Produk Berkualitas",
+    "title": "Online",
     "img": "/kertakayu/img/quality.png",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Kemudahan proses pemesanan sampai dengan pengiriman furnitur melalui daring, anda cukup duduk manis di rumah aja."
 }, {
     "id": 4,
-    "title": "Tidak ada minimum Pemesanan",
+    "title": "Harga Kompetitif",
     "img": "/kertakayu/img/order.png",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Yuk eksplorasi konsep dekorasi design anda sesuai dengan anggaran."
 }, {
     "id": 5,
-    "title": "Fleksibilats Pembayaran",
+    "title": "Garansi",
     "img": "/kertakayu/img/payment.png",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Barang sesuai design atau uang anda kembali."
 }, {
     "id": 6,
-    "title": "Fleksibilats Pembayaran",
+    "title": "Lebih Hemat",
     "img": "/kertakayu/img/payment.png",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Tidak ada tambahan biaya untuk custom design & pemasangan furnitur"
 }, {
     "id": 7,
-    "title": "Fleksibilats Pembayaran",
+    "title": "Kemudahan Pembayaran",
     "img": "/kertakayu/img/payment.png",
-    "desc": "Untuk website yang kami buatkan adalah full custom dengan teknologi terbaru."
+    "desc": "Tidak ada tambahan biaya untuk custom design & pemasangan furnitur"
 }]
