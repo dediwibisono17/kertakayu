@@ -150,6 +150,12 @@ section {
     &-fafa {
         background-color: #fafafa;
     }
+    &-img {
+        background: url(../img/bg.jpg);
+        background-position: 100% 100%;
+        // opacity: .3;
+        background-size: cover;
+    }
 }
 
 .color {
