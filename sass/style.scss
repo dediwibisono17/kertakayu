@@ -364,6 +364,7 @@ footer {
     }
     &-prev {
         left: 0px !important;
+        z-index: 99;
         &::before {
             font-family: 'fontawesome' !important;
             content: "\f053" !important;
