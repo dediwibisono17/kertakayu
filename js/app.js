@@ -127,7 +127,7 @@ $.ajax({
         var a;
         for (a = 0; a < response.length; a++) {
             $(".material").append(`
-            <div class="material-content">
+            <div class="material-content bg-img">
                 <div class="card_">
                     <div class="content">
                         <h3 class="font-medium font-bold upper">
